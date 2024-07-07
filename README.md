@@ -15,3 +15,7 @@ JUnit: For unit testing.
 
 # Caching
 The application uses Caffeine to cache news articles. Cache entries expire after 10 minutes and the cache can store a maximum of 100 entries.
+
+
+# Note
+The .env file is only added for this project.
