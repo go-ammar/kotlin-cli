@@ -7,11 +7,11 @@ Cache the API response to reduce any redundant API calls
 Command Line Interface for user Interaction
 
 # Dependencies
-Koin: For dependency injection.
-Retrofit: For API calls.
-Caffeine: For caching.
-Mockk: For mocking in tests.
-JUnit: For unit testing.
+* Koin: For dependency injection.
+* Retrofit: For API calls.
+* Caffeine: For caching.
+* Mockk: For mocking in tests.
+* JUnit: For unit testing.
 
 # Caching
 The application uses Caffeine to cache news articles. Cache entries expire after 10 minutes and the cache can store a maximum of 100 entries.
