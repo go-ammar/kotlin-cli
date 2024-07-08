@@ -41,6 +41,12 @@ cd kotlin-cli-news-app
 
 * Open the project using Intellij, build gradle and run the application.
 
+# Video Walkthrough
+
+
+https://github.com/go-ammar/kotlin-cli/assets/61266813/b73c4904-9d13-45b9-b7f6-66ad2cc21a45
+
+
 
 # Note
 The .env file is only added for this project.
