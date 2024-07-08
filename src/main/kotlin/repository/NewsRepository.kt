@@ -33,6 +33,14 @@ class NewsRepository(private val apiService: ApiService) {
                 val news: News? = response.body()
                 if (news != null) {
 
+
+                    //Removes Data from list if data is unavailable from API
+
+                    news.articles.removeIf { it.title?.contains("[Removed]")
+                        it.content?.contains("[Removed]")
+                        it.description?.contains("[Removed]") == true
+                    }
+
                     //filtering the response by removing unnecessary data
                     news.articles.map {
                         it.content = it.content?.removeEndingCharsOfContent()?.removeHtmlAttributes()

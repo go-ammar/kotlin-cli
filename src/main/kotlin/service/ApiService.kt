@@ -12,7 +12,7 @@ interface ApiService {
     @GET("everything")
     suspend fun getData(
         @Query("q") topic: String,
-        @Query("pagesize") pageSize: Int = 5,
+        @Query("pagesize") pageSize: Int = 10,
         @Query("page") page: Int = 1
     ): Response<News>
 
