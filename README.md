@@ -16,6 +16,25 @@ Command Line Interface for user Interaction
 # Caching
 The application uses Caffeine to cache news articles. Cache entries expire after 10 minutes and the cache can store a maximum of 100 entries.
 
+# Getting started
+
+Clone the repository using the following commands:
+git clone https://github.com/yourusername/kotlin-cli-news-app.git](https://github.com/go-ammar/kotlin-cli.git
+cd kotlin-cli-news-app
+
+Build the project:
+./gradlew build
+
+Run the project:
+./gradlew run
+
+Running the tests:
+./gradlew test
+
+OR
+
+Open the project using Intellij, build gradle and run the application.
+
 
 # Note
 The .env file is only added for this project.
