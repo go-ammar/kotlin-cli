@@ -29,6 +29,10 @@ Clone the repository and run the project using the following commands:
 
 git clone https://github.com/go-ammar/kotlin-cli.git
 
+git fetch
+
+git checkout origin main
+
 cd kotlin-cli-news-app
 
 ./gradlew build
