@@ -31,7 +31,7 @@ git clone https://github.com/go-ammar/kotlin-cli.git
 
 git fetch
 
-git checkout origin main
+git checkout origin master
 
 cd kotlin-cli-news-app
 
